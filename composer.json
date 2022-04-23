@@ -1,0 +1,29 @@
+{
+    "name": "kickpg/mypackage",
+    "description": "Package by kickpg",
+    "keywords": [
+      "mypackage"
+    ],
+    "authors": [
+      {
+        "name": "kickpg",
+        "email": "20211tt4665@mail.tdc.edu.vn"
+      }
+    ],
+    "license": "MIT",
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+      "psr-4": {
+        "Kickpg\\Mypackage\\": "src/"
+      }
+    },
+    "autoload-dev": {
+      "classmap": []
+    },
+    "scripts": {},
+    "minimum-stability": "dev",
+    "config": {
+      "preferred-install": "dist"
+    }
+  }
